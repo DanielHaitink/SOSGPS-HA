@@ -1,0 +1,14 @@
+{
+  "domain": "sosgps",
+  "name": "SOSGPS",
+  "version": "0.1.0",
+  "codeowners": [
+    "@DanielHaitink"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/DanielHaitink/SOSGPS-HA",
+  "issue_tracker": "https://github.com/DanielHaitink/SOSGPS-HA/issues",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "requirements": []
+}

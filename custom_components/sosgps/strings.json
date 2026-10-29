@@ -1,0 +1,31 @@
+{
+  "title": "SOSGPS",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to SOSGPS",
+        "description": "Create a read-only token in SOSGPS → Account → Home Assistant. Tracker selection is managed in SOSGPS.",
+        "data": {
+          "server_url": "SOSGPS server URL (HTTPS)",
+          "access_token": "Access token"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Renew SOSGPS access",
+        "description": "Create a replacement token in your SOSGPS account, then enter it here.",
+        "data": {
+          "access_token": "Access token"
+        }
+      }
+    },
+    "error": {
+      "invalid_input": "Enter an HTTPS server origin and a valid SOSGPS integration token.",
+      "invalid_auth": "The token is invalid, expired, or revoked.",
+      "cannot_connect": "Cannot connect to SOSGPS. Check the URL, certificate, and server availability."
+    },
+    "abort": {
+      "already_configured": "This SOSGPS connection is already configured.",
+      "reauth_successful": "SOSGPS access renewed."
+    }
+  }
+}
